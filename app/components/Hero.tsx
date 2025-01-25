@@ -6,7 +6,7 @@ import { motion } from 'motion/react'
 import Disk from '/public/semicerc.png';
 import Disk2 from '/public/cilindru.png';
 import { TypewriterEffect } from "./ui/typewriter-effect";
-import { once } from 'events';
+
 
 const MotionImage = motion(Image);
 

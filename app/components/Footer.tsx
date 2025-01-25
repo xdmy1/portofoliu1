@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <p>All rights reserved.</p>
       <div>
-        <p>Let's chat</p>
+        <p>Let&apos;s chat</p>
         <p className='text-white'>contact me</p>
       </div>
       <div className='underline'>

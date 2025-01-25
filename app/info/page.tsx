@@ -5,7 +5,6 @@ import { motion } from "motion/react"
 import Image from 'next/image'
 import Pfp from '/public/pfp.jpg'
 import Prog from '/public/prog.jpg'
-import Link from 'next/link'
 import Spirala from '/public/spirala.png'
 import Star from '/public/star.png'
 

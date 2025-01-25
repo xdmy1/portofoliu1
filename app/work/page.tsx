@@ -5,7 +5,7 @@ import Image from 'next/image'
 import P1 from '/public/p1.png'
 import P2 from '/public/p2.png'
 import P3 from '/public/b1.svg'
-import { TypewriterEffect } from "../components/ui/typewriter-effect";
+
  
 
 
