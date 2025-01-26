@@ -33,18 +33,16 @@ const page = () => {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
         ></MotionImage>
-            <div className='flex flex-col lg:flex-row items-center '>
+            <div className='flex flex-col lg:flex-row  '>
         <div className='flex flex-col text-gray-500 gap-6 text-5xl lg:max-w-[50%] lg:gap-10'>
         <p>Hi, I’m Damian. Raised in <span className='text-white'>Chișinău</span>, I was a curious kid who explored the world through coding and web development.</p>
-<p>Going to <span className='text-white'>CEITI</span> in Chișinău to study Computer Science, I used every opportunity to build digital connections.</p>          
-<p>While in college, I dove into web development by building a site to enhance student collaboration, sparking my passion for coding and design.</p>
-<p>Working in fast-paced, collaborative environments, I combine <span className='text-white'>UX</span>, <span className='text-white'>UI</span>, product, and <span className='text-white'>Web Development</span>, crafting innovative, engaging, and functional digital experiences that drive us toward the future.</p>        </div>
+        <p>Going to <span className='text-white'>CEITI</span> in Chișinău to study Computer Science, I used every opportunity to build digital connections.</p>          
+        <p>While in college, I dove into web development by building a site to enhance student collaboration, sparking my passion for coding and design.</p>
+        <p>Working in fast-paced, collaborative environments, I combine <span className='text-white'>UX</span>, <span className='text-white'>UI</span>, product, and <span className='text-white'>Web Development</span>, crafting innovative, engaging, and functional digital experiences that drive us toward the future.</p>        </div>
 
-        <div className="flex flex-col mt-16 gap-6">
-            <Image  src={Pfp} alt='pfp' />
-            <Image src={Prog} alt='prog' />
-            
-            
+        <div className="flex flex-col mt-16 md:mt-0 gap-6 items-start h-[500px] overflow-hidden">
+            <Image src={Pfp} alt='pfp'  className='md:mt-4 lg:fixed md:w-[550px]' />
+            <Image src={Prog} alt='prog' className='md:hidden ' />           
         </div>
         
         </div>

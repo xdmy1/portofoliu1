@@ -1,4 +1,4 @@
-"use client";
+
 import React from 'react'
 import Footer from '../components/Footer'
 import Image from 'next/image'
@@ -31,7 +31,7 @@ const page = () => {
                     <div className='flex flex-col py-2'>
                         <p className='text-xl text-white '>GreenBank Prototype</p>
                         <p>Bank Landing Page made using Next.js, Tailwind CSS and Motion</p>
-                        <button className='border  border-white text-white px-6 py-1 cursor-not-allowed w-24 mt-6 rounded-s hover:bg-white hover:text-black hover:border-black transition-all'>Visit</button>
+                        <a target='_blank' href="https://greenbank-nextjs.vercel.app/"><button className='border  border-white text-white px-6 py-1 cursor-pointer w-24 mt-6 rounded-s hover:bg-white hover:text-black hover:border-black transition-all'>Visit</button></a>
                     </div>
                 </div>
                 <div className='px-4 py-4 bg-[#1c1c1c] bg-opacity-40 flex flex-col gap-6 max-w-[350px] min-h-[400px] justify-between rounded-s'>
@@ -41,7 +41,7 @@ const page = () => {
                     <div className='flex flex-col py-2'>
                         <p className='text-xl text-white'>SaaS Landing Page</p>
                         <p>Landing Page made using Next.js, Tailwind CSS, Shad/cn, Motion</p>
-                        <button className='border  border-white text-white px-6 py-1 cursor-not-allowed w-24 mt-6 rounded-s hover:bg-white hover:text-black hover:border-black transition-all'>Visit</button>
+                        <a target="_blank" href="https://nextjs-green-eta-60.vercel.app/"><button className='border  border-white text-white px-6 py-1 cursor-pointer w-24 mt-6 rounded-s hover:bg-white hover:text-black hover:border-black transition-all'>Visit</button></a>
                     </div>
                 </div>
                 <div className='px-4 py-4 bg-[#1c1c1c] bg-opacity-40 flex flex-col gap-6 max-w-[350px] min-h-[400px] justify-between rounded-s'>

@@ -14,7 +14,7 @@ const Footer = () => {
       <p>All rights reserved.</p>
       <div>
         <p>Let&apos;s chat</p>
-        <p className='text-white'>contact me</p>
+        <a href="mailto:damian.bobernaga@gmail.com"><p className='text-white cursor-pointer'>contact me</p></a>
       </div>
       <div className='underline'>
         <p>Resume</p>

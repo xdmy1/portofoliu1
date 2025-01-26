@@ -16,7 +16,7 @@ const Hero = () => {
       <MotionImage
       src={Disk}
        alt="Disk"
-       className='w-32 md:w-40 absolute z-10 -top-48 -left-10'
+       className='w-32 md:w-48 absolute z-10 -top-48 -left-10'
        animate={{
         y: ["0%", "-5%", "0%"], // Moves up and down
         scale: [1, 1.02, 1], // Slight scale change for added effect
@@ -32,7 +32,7 @@ const Hero = () => {
       <MotionImage
       src={Disk2}
        alt="Disk"
-       className='w-32 md:w-40 absolute z-10 -bottom-32 -right-20'
+       className='w-32 md:w-52 absolute z-10 -bottom-32 -right-20'
        animate={{
         y: [0, -10, 0, 10, 0], // Complex bounce pattern
         x: [0, 5, -5, 5, -5, 0], // Slight side-to-side movement
@@ -48,22 +48,22 @@ const Hero = () => {
        />
       <p>
         <Link href="/info">
-        <span className='text-white underline cursor-pointer'>Damian</span> 
+        <span className='text-white underline cursor-pointer'>Damian,</span> 
         </Link>
-        {' '}is a front-end developer that uses Next.js
+        {' '} a front-end developer that uses Next.js
         </p>
       <TypewriterEffect className='text-start text-white text-l' words={[
         {
-          text: "He"
+          text: "I"
         },
         {
-          text: "designs"
+          text: "design"
         },
         {
           text: "and"
         },
         {
-          text: "develops"
+          text: "develop"
         },
         {
           text: "websites"
@@ -84,9 +84,9 @@ const Hero = () => {
       ]}/>
       <div className='flex'>
       <p>
-      See him in{' '}
+      See my {' '}
       <Link href="/work">
-        <span className="underline cursor-pointer">action.</span>
+        <span className="underline cursor-pointer text-white">work</span>
       </Link>
     </p>
     </div>
