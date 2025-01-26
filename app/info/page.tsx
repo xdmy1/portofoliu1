@@ -35,11 +35,10 @@ const page = () => {
         ></MotionImage>
             <div className='flex flex-col lg:flex-row items-center '>
         <div className='flex flex-col text-gray-500 gap-6 text-5xl lg:max-w-[50%] lg:gap-10'>
-            <p>Hi ,I am Jiacheng Yang. Raised in the <span className='text-white'>Gobi Desert</span>, I was a curious kid who discovered the world through video games.</p>
-            <p>Moving to <span className='text-white'>Shanghai</span> to study Civil Engineering at Tongji University, I used every opportunity to build digital connections.</p>
-            <p>While still in college, I developed a platform that fostered peer-to-peer knowledge sharing and started my journey in Interaction Design.</p>
-            <p>Working in fast-paced, collaborative environments, I combine <span className='text-white'>UX</span>, <span className='text-white'>UI</span>, product and <span className='text-white'>3D Design</span>, creating elevated, playful and tangible products and experiences that empower us to move into the digital future. </p>
-        </div>
+        <p>Hi, I’m Damian. Raised in <span className='text-white'>Chișinău</span>, I was a curious kid who explored the world through coding and web development.</p>
+<p>Going to <span className='text-white'>CEITI</span> in Chișinău to study Computer Science, I used every opportunity to build digital connections.</p>          
+<p>While in college, I dove into web development by building a site to enhance student collaboration, sparking my passion for coding and design.</p>
+<p>Working in fast-paced, collaborative environments, I combine <span className='text-white'>UX</span>, <span className='text-white'>UI</span>, product, and <span className='text-white'>Web Development</span>, crafting innovative, engaging, and functional digital experiences that drive us toward the future.</p>        </div>
 
         <div className="flex flex-col mt-16 gap-6">
             <Image  src={Pfp} alt='pfp' />
